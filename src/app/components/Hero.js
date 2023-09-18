@@ -84,7 +84,7 @@ const Hero = () => {
           </div>
           <div>
             {" "}
-            <Image src="/vector-4.png" alt="" width={21} height={17} />
+            <Image src="/vector.svg" alt="" width={21} height={17} />
           </div>
           <div>
             {" "}
