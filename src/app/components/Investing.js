@@ -1,17 +1,18 @@
 import React from "react";
 import Image from "next/image";
+import InvestFooter from "./InvestFooter";
 
 const Investing = () => {
   return (
     <div
-      className="mx-auto top-0  min-w-l min-h-[600px] 
-    max-w-[1366px] max-h-[750px] relative bg-[#00d54b]"
+      className="mx-auto top-0  min-w-l min-h-[700px] 
+    max-w-[1366px] max-h-[800px] relative  bg-gradient-to-b from-[#00d54b] to-white "
     >
       <h1 className="pt-[131px] text-center items-center text-white uppercase text-[40px] font-[800px] font-['Agrandir'] leading-10">
         {" "}
         investing
       </h1>
-      <div className="flex pb-10">
+      <div className="flex ">
         <div>
           <div className="absolute w-[352px] h-[136px] top-[288px] left-[95px]">
             <p className="text-[40px] font-[800px] font-[Agrandir] text-black leading-10">
@@ -54,6 +55,10 @@ const Investing = () => {
             />
           </div>
         </div>
+      </div>
+
+      <div className="absolute bottom-0 text-black flex left-10 justify-between">
+        <InvestFooter />{" "}
       </div>
     </div>
   );
